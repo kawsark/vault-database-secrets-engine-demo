@@ -1,0 +1,16 @@
+vault.txt
+terraform.tfstate*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+
+# Approle files
+role_id
+secret_id
+login.json
+
+# Vault agent files
+token
+postgres2kv.sh
+index.html
+previous.txt

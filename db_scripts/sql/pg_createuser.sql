@@ -1,0 +1,3 @@
+CREATE ROLE infosec WITH LOGIN PASSWORD 'password';
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO infosec;
+/* SELECT * FROM pg_roles; */
